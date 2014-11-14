@@ -1,14 +1,14 @@
 [
   {
+    "repository": "android_vendor_sony_tianchi",
+    "target_path": "vendor/sony/tianchi"
+  },
+  {
     "repository": "android_kernel_sony_tianchi",
     "target_path": "kernel/sony/tianchi"
   },
   {
     "repository": "android_device_sony_msm8226-common",
     "target_path": "device/sony/msm8226-common"
-  },
-  {
-    "repository": "android_vendor_sony_msm8226-common",
-    "target_path": "vendor/sony/msm8226-common"
   }
 ]
