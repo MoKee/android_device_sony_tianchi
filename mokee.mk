@@ -1,4 +1,4 @@
-# Copyright (C) 2014 The CyanogenMod Project
+# Copyright (C) 2014 The MoKee OpenSource Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -33,13 +33,13 @@ $(call inherit-product, device/sony/tianchi/aosp_d5303.mk)
 # Inherit from common resources
 $(call inherit-product, device/sony/common/resources.mk)
 
-# Inherit CM common stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+# Inherit MK common stuff.
+$(call inherit-product, vendor/mk/config/common_full_phone.mk)
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=D5303 \
     BUILD_FINGERPRINT=Sony/D5303/D5303:4.4.3/19.1.1.A.0.165/Wv93Zw:user/release-keys \
     PRIVATE_BUILD_DESC="D5303-user 4.4.3 19.1.1.A.0.165 Wv93Zw release-keys"
 
-PRODUCT_NAME := cm_tianchi
+PRODUCT_NAME := mk_tianchi
 PRODUCT_DEVICE := tianchi
